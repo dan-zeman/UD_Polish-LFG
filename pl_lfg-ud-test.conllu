@@ -1,21 +1,21 @@
-#    Copyright (C) 2018–2019 Agnieszka Patejuk, Adam Przepiórkowski
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU General Public License as published by
-#    the Free Software Foundation, either version 3 of the License, or
-#    (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU General Public License for more details.
-#
-#    You should have received a copy of the GNU General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-#
 # sent_id = test-1
 # text = 569 lat temu spalono na stosie Joannę D'Arc.
+# Copyright (C) 2018–2019 Agnieszka Patejuk, Adam Przepiórkowski
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+#
 # converted_from_file = Skladnica--FULL_1202910000001_morph_21-p_morph_21.34-s-dis@1.xml
 # genre = news
 1	569	569	NUM	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	2	nummod	2:nummod	DepType=Rec
@@ -55,7 +55,7 @@
 7	były	być	VERB	praet:pl:m3:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc3|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	4:advcl:gdyby	_
 8	dwa	dwa	NUM	num:pl:nom:m3:congr	Case=Nom|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	7	nsubj	7:nsubj	DepType=Congr
 9	albo	albo	CCONJ	conj	_	10	cc	10:cc	_
-10	trzy	trzy	NUM	num:pl:nom:m3:congr	Case=Nom|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	8	conj	7:nsubj|8:conj	DepType=Congr|SpaceAfter=No
+10	trzy	trzy	NUM	num:pl:nom:m3:congr	Case=Nom|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	8	conj	7:nsubj|8:conj	SpaceAfter=No|DepType=Congr
 11	?	?	PUNCT	interp	PunctType=Qest	4	punct	4:punct	_
 
 # sent_id = test-4
@@ -967,7 +967,7 @@
 4	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	tylko	tylko	PART	qub	_	10	advmod	10:advmod	_
 6	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Acc
-7	dwa	dwa	NUM	num:pl:acc:m3:congr	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	10	nummod	10:nummod	DepType=Congr|SpaceAfter=No
+7	dwa	dwa	NUM	num:pl:acc:m3:congr	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	10	nummod	10:nummod	SpaceAfter=No|DepType=Congr
 8	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	_
 9	trzy	trzy	NUM	num:pl:acc:m3:congr	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	7	conj	7:conj|10:nummod	DepType=Congr
 10	miesiące	miesiąc	NOUN	subst:pl:acc:m3	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc3	4	obl	4:obl:przez	_
@@ -5545,9 +5545,9 @@
 2	wtedy	wtedy	ADV	adv	PronType=Dem	3	advmod	3:advmod	_
 3	wrócił	wrócić	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	do	do	ADP	prep:gen	AdpType=Prep	5	case	5:case	Case=Gen
-5	Margit	Margit	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	obl	3:obl:do	SpaceAfter=No
+5	Margit	Margit	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	obl	3:obl:do|8:nsubj|11:nsubj	SpaceAfter=No
 6	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
-7	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	8	nsubj	8:nsubj|11:nsubj	_
+7	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	8	nsubj	5:ref	_
 8	drgnęła	drgnąć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
 9	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Acc
 10	sen	sen	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc3	8	obl	8:obl:przez	_
@@ -5868,7 +5868,7 @@
 8	robiła	robić	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	4:ccomp	_
 9	dwadzieścia	dwadzieścia	NUM	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	10	nummod	10:nummod	DepType=Rec
 10	lat	rok	NOUN	subst:pl:gen:m3	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc3	8	obl	8:obl:temu	_
-11	temu	temu	ADP	prep:acc	AdpType=Post	10	case	10:case	Case=Acc|SpaceAfter=No
+11	temu	temu	ADP	prep:acc	AdpType=Post	10	case	10:case	SpaceAfter=No|Case=Acc
 12	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
 
 # sent_id = test-459
@@ -9055,9 +9055,9 @@
 # converted_from_file = Skladnica--FULL_1303900001_morph_165-p_morph_165.11-s-dis@1.xml
 # genre = news
 1	Na	na	ADP	prep:acc	AdpType=Prep	2	case	2:case	Case=Acc
-2	tych	ten	DET	adj:pl:acc:m1:pos	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem|SubGender=Masc1	9	obl	9:obl:na	SpaceAfter=No
+2	tych	ten	DET	adj:pl:acc:m1:pos	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem|SubGender=Masc1	9	obl	5:nsubj|9:obl:na	SpaceAfter=No
 3	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
-4	którzy	który	DET	adj:pl:nom:m1:pos	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel|SubGender=Masc1	5	nsubj	5:nsubj	_
+4	którzy	który	DET	adj:pl:nom:m1:pos	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel|SubGender=Masc1	5	nsubj	2:ref	_
 5	przetrwali	przetrwać	VERB	praet:pl:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	_
 6	pogodowe	pogodowy	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	7:amod	_
 7	anomalie	anomalia	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	5	obj	5:obj	SpaceAfter=No
@@ -10110,10 +10110,10 @@
 2	rozumiała	rozumieć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Number=Sing|Person=1|Variant=Short	2	aux:aglt	2:aux:aglt	_
 4	też	też	PART	qub	_	5	advmod	5:advmod	_
-5	sposobu	sposób	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	2	obj	2:obj	SpaceAfter=No
+5	sposobu	sposób	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	2	obj	2:obj|10:obl:w	SpaceAfter=No
 6	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
 7	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Acc
-8	jaki	jaki	DET	adj:sg:acc:m3:pos	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc3	10	obl	10:obl:w	_
+8	jaki	jaki	DET	adj:sg:acc:m3:pos	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc3	10	obl	5:ref	_
 9	Lilka	Lilka	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	10:nsubj	_
 10	kochała	kochać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
 11	Bronka	Bronek	PROPN	subst:sg:acc:m1	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc1	10	obj	10:obj	SpaceAfter=No
@@ -10281,7 +10281,7 @@
 3	wygramy	wygrać	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	meczu	mecz	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	3	obj	3:obj	_
 5	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Acc
-6	trzech	trzy	NUM	num:pl:acc:m1:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc1	3	obl	3:obl:w	DepType=Rec|SpaceAfter=No
+6	trzech	trzy	NUM	num:pl:acc:m1:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc1	3	obl	3:obl:w	SpaceAfter=No|DepType=Rec
 7	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = test-816
@@ -10739,9 +10739,9 @@
 2	opiera	opierać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	2	expl:pv	2:expl:pv	_
 4	o	o	ADP	prep:acc	AdpType=Prep	5	case	5:case	Case=Acc
-5	kałasznikowa	kałasznikow	NOUN	subst:sg:acc:m2	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc2	2	obl	2:obl:o	SpaceAfter=No
+5	kałasznikowa	kałasznikow	NOUN	subst:sg:acc:m2	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc2	2	obl	2:obl:o|8:nsubj	SpaceAfter=No
 6	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
-7	który	który	DET	adj:sg:nom:m2:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc2	8	nsubj	8:nsubj	_
+7	który	który	DET	adj:sg:nom:m2:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc2	8	nsubj	5:ref	_
 8	sięga	sięgać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
 9	mu	on	PRON	ppron3:sg:dat:m1:ter:nakc:npraep	Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|SubGender=Masc1|Variant=Short	8	iobj	8:iobj	_
 10	do	do	ADP	prep:gen	AdpType=Prep	11	case	11:case	Case=Gen
@@ -11322,9 +11322,9 @@
 3	chwil	chwila	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	4	obl	4:obl:od	_
 4	klekotał	klekotać	VERB	praet:sg:m3:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	stamtąd	stamtąd	ADV	adv	PronType=Dem	4	advmod	4:advmod	_
-6	cekaem	cekaem	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	4	nsubj	4:nsubj	SpaceAfter=No
+6	cekaem	cekaem	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	4	nsubj	4:nsubj|10:nsubj	SpaceAfter=No
 7	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
-8	który	który	DET	adj:sg:nom:m3:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc3	10	nsubj	10:nsubj	_
+8	który	który	DET	adj:sg:nom:m3:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc3	10	nsubj	6:ref	_
 9	nagle	nagle	ADV	adv:pos	Degree=Pos	10	advmod	10:advmod	_
 10	zmienił	zmienić	VERB	praet:sg:m3:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl:relcl	_
 11	stanowisko	stanowisko	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	10	obj	10:obj	SpaceAfter=No
@@ -11740,7 +11740,7 @@
 2	zarejestrował	zarejestrować	VERB	praet:sg:m3:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	ich	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|SubGender=Masc1|Variant=Long	2	obj	2:obj	_
 4	ponad	ponad	PART	qub	_	3	advmod	3:advmod	_
-5	260	260	NUM	num:pl:acc:m1:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc1	3	nummod	3:nummod	DepType=Rec|SpaceAfter=No
+5	260	260	NUM	num:pl:acc:m1:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc1	3	nummod	3:nummod	SpaceAfter=No|DepType=Rec
 6	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
 
 # sent_id = test-928
@@ -11955,7 +11955,7 @@
 5	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 6	salową	salowa	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	0:root	_
 7	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	11	case	11:case	Case=Gen
-8	wielu	wiele	DET	num:pl:gen:m3:congr	Case=Gen|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind|SubGender=Masc3	11	det	11:det	DepType=Congr|SpaceAfter=No
+8	wielu	wiele	DET	num:pl:gen:m3:congr	Case=Gen|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind|SubGender=Masc3	11	det	11:det	SpaceAfter=No|DepType=Congr
 9	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
 10	wielu	wiele	DET	num:pl:gen:m3:congr	Case=Gen|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind|SubGender=Masc3	8	conj	8:conj|11:det	DepType=Congr
 11	lat	rok	NOUN	subst:pl:gen:m3	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc3	6	obl	6:obl:od	SpaceAfter=No
@@ -13793,9 +13793,9 @@
 # converted_from_file = NKJP1M_3104000000002_morph_6-p_morph_6.11-s-dis@1.xml
 # genre = nonfiction
 1	Przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	2	case	2:case	Case=Ins
-2	sklepem	sklep	NOUN	subst:sg:inst:m3	Case=Ins|Gender=Masc|Number=Sing|SubGender=Masc3	8	obl	8:obl:przed	SpaceAfter=No
+2	sklepem	sklep	NOUN	subst:sg:inst:m3	Case=Ins|Gender=Masc|Number=Sing|SubGender=Masc3	8	obl	5:obl|8:obl:przed	SpaceAfter=No
 3	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
-4	gdzie	gdzie	ADV	adv	PronType=Rel	5	advmod	5:advmod	_
+4	gdzie	gdzie	ADV	adv	PronType=Rel	5	advmod	2:ref	_
 5	sprzedawano	sprzedawać	VERB	imps:imperf	Aspect=Imp|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	_
 6	chleb	chleb	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc3	5	obj	5:obj	SpaceAfter=No
 7	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
@@ -14345,9 +14345,9 @@
 # genre = fiction
 1	Przywołał	przywołać	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 2	eś	być	AUX	aglt:sg:sec:imperf:wok	Aspect=Imp|Number=Sing|Person=2|Variant=Long	1	aux:aglt	1:aux:aglt	_
-3	Michała	Michał	PROPN	subst:sg:acc:m1	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc1	1	obj	1:obj	SpaceAfter=No
+3	Michała	Michał	PROPN	subst:sg:acc:m1	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc1	1	obj	1:obj|6:nsubj	SpaceAfter=No
 4	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
-5	który	który	DET	adj:sg:nom:m1:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc1	6	nsubj	6:nsubj	_
+5	który	który	DET	adj:sg:nom:m1:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc1	6	nsubj	3:ref	_
 6	galopował	galopować	VERB	praet:sg:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	_
 7	gdzieś	gdzieś	ADV	adv	PronType=Ind	9	advmod	9:advmod	_
 8	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	9	case	9:case	Case=Ins
@@ -15537,7 +15537,7 @@
 9	wtedy	wtedy	ADV	adv	PronType=Dem	10	advmod	10:advmod	_
 10	zarabiają	zarabiać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
 11	oni	on	PRON	ppron3:pl:nom:m1:ter:akc:npraep	Case=Nom|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|SubGender=Masc1|Variant=Long	10	nsubj	10:nsubj	_
-12	więcej	więcej	DET	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind|SubGender=Masc3	10	obj	10:obj	DepType=Rec|SpaceAfter=No
+12	więcej	więcej	DET	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind|SubGender=Masc3	10	obj	10:obj	SpaceAfter=No|DepType=Rec
 13	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
 
 # sent_id = test-1236
@@ -15755,7 +15755,7 @@
 4	zaczął	zacząć	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Gen
 6	wysokości	wysokość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obl	4:obl:od	_
-7	5,70	5,70	NUM	num:pl:gen:m3:congr	Case=Gen|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	6	appos	6:appos	DepType=Congr|SpaceAfter=No
+7	5,70	5,70	NUM	num:pl:gen:m3:congr	Case=Gen|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	6	appos	6:appos	SpaceAfter=No|DepType=Congr
 8	,	,	PUNCT	interp	PunctType=Comm	11	punct	11:punct	_
 9	ale	ale	CCONJ	conj	_	11	cc	11:cc	_
 10	nie	nie	PART	qub	Polarity=Neg	11	advmod	11:advmod	_
@@ -16253,9 +16253,9 @@
 # converted_from_file = NKJP1M_2004000000309_morph_7-p_morph_7.56-s-dis@1.xml
 # genre = fiction
 1	Także	także	PART	qub	_	2	advmod	2:advmod	_
-2	wino	wino	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	8:nsubj	SpaceAfter=No
+2	wino	wino	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	5:obj|8:nsubj	SpaceAfter=No
 3	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
-4	które	który	DET	adj:sg:acc:n:pos	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	obj	5:obj	_
+4	które	który	DET	adj:sg:acc:n:pos	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	obj	2:ref	_
 5	zamówili	zamówić	VERB	praet:pl:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	SpaceAfter=No
 6	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
 7	było	być	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
@@ -16329,9 +16329,9 @@
 1	Tchnęła	tchnąć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	3	case	3:case	Case=Acc
 3	niego	on	PRON	ppron3:sg:acc:m1:ter:akc:praep	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|SubGender=Masc1|Variant=Long	1	obl	1:obl:w	_
-4	wiarę	wiara	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	1:obj	SpaceAfter=No
+4	wiarę	wiara	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	1:obj|7:obj	SpaceAfter=No
 5	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
-6	którą	który	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	7	obj	7:obj	_
+6	którą	który	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	7	obj	4:ref	_
 7	zrodził	zrodzić	VERB	praet:sg:m3:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
 8	trud	trud	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	7	nsubj	7:nsubj	_
 9	chłopca	chłopiec	NOUN	subst:sg:gen:m1	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc1	8	nmod:poss	8:nmod:poss	SpaceAfter=No
@@ -16729,9 +16729,9 @@
 1	To	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
 2	efekt	efekt	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	1	nsubj	1:nsubj	_
 3	naszej	nasz	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	4:det	_
-4	historii	historia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod:poss	2:nmod:poss	SpaceAfter=No
+4	historii	historia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod:poss	2:nmod:poss|7:nsubj	SpaceAfter=No
 5	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
-6	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	7	nsubj	7:nsubj	_
+6	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	7	nsubj	4:ref	_
 7	związała	związać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
 8	wyznanie	wyznanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	7	obj	7:obj	_
 9	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Ins
@@ -16876,10 +16876,10 @@
 1	-	-	PUNCT	interp	PunctType=Dash	2	punct	2:punct	_
 2	To	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
 3	nie	nie	PART	qub	Polarity=Neg	4	advmod	4:advmod	_
-4	ci	ten	DET	adj:pl:nom:m1:pos	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem|SubGender=Masc1	2	nsubj	2:nsubj	SpaceAfter=No
+4	ci	ten	DET	adj:pl:nom:m1:pos	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem|SubGender=Masc1	2	nsubj	2:nsubj|8:obl:na	SpaceAfter=No
 5	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
 6	na	na	ADP	prep:acc	AdpType=Prep	7	case	7:case	Case=Acc
-7	których	który	DET	adj:pl:acc:m1:pos	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel|SubGender=Masc1	8	obl	8:obl:na	_
+7	których	który	DET	adj:pl:acc:m1:pos	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel|SubGender=Masc1	8	obl	4:ref	_
 8	czekamy	czekać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	SpaceAfter=No
 9	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
 
@@ -16900,7 +16900,7 @@
 # converted_from_file = NKJP1M_Sztafeta_morph_53-p_morph_53.12-s-dis@1.xml
 # genre = news
 1	To	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
-2	niewiele	niewiele	DET	num:pl:acc:f:rec	Case=Acc|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	1	nsubj	1:nsubj	DepType=Rec|SpaceAfter=No
+2	niewiele	niewiele	DET	num:pl:acc:f:rec	Case=Acc|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	1	nsubj	1:nsubj	SpaceAfter=No|DepType=Rec
 3	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
 
 # sent_id = test-1347
@@ -16908,7 +16908,7 @@
 # converted_from_file = NKJP1M_6203010000841_morph_2-p_morph_2.58-s-dis@1.xml
 # genre = social
 1	To	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
-2	niewiele	niewiele	DET	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind|SubGender=Masc3	1	nsubj	1:nsubj	DepType=Rec|SpaceAfter=No
+2	niewiele	niewiele	DET	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind|SubGender=Masc3	1	nsubj	1:nsubj	SpaceAfter=No|DepType=Rec
 3	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
 
 # sent_id = test-1348
@@ -16919,10 +16919,10 @@
 2	pewnie	pewnie	PART	qub	_	1	advmod	1:advmod	_
 3	też	też	PART	qub	_	1	advmod	1:advmod	_
 4	był	być	AUX	praet:sg:m3:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc3|Tense=Past|VerbForm=Fin	1	aux	1:aux	_
-5	powód	powód	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	1	nsubj	1:nsubj	SpaceAfter=No
+5	powód	powód	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	1	nsubj	1:nsubj|12:obl:dla	SpaceAfter=No
 6	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	_
 7	dla	dla	ADP	prep:gen	AdpType=Prep	8	case	8:case	Case=Gen
-8	którego	który	DET	adj:sg:gen:m3:pos	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc3	12	obl	12:obl:dla	_
+8	którego	który	DET	adj:sg:gen:m3:pos	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc3	12	obl	5:ref	_
 9	się	się	PRON	qub	PronType=Prs|Reflex=Yes	12	expl:pv	12:expl:pv	_
 10	za	za	ADP	prep:inst	AdpType=Prep	11	case	11:case	Case=Ins
 11	nim	on	PRON	ppron3:sg:inst:m1:ter:akc:praep	Case=Ins|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|SubGender=Masc1|Variant=Long	12	obl	12:obl:za	_
@@ -17103,9 +17103,9 @@
 1	Toruńska	toruński	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	2:amod	_
 2	policja	policja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
 3	poszukuje	poszukiwać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	przebierańca	przebieraniec	NOUN	subst:sg:gen:m1	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc1	3	obj	3:obj	SpaceAfter=No
+4	przebierańca	przebieraniec	NOUN	subst:sg:gen:m1	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc1	3	obj	3:obj|7:nsubj|10:nsubj	SpaceAfter=No
 5	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
-6	który	który	DET	adj:sg:nom:m1:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc1	7	nsubj	7:nsubj|10:nsubj	_
+6	który	który	DET	adj:sg:nom:m1:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc1	7	nsubj	4:ref	_
 7	podaje	podawać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
 8	się	się	PRON	qub	PronType=Prs|Reflex=Yes	7	expl:pv	7:expl:pv	_
 9	za	za	ADP	prep:acc	AdpType=Prep	10	case	10:case	Case=Acc
@@ -18020,9 +18020,9 @@
 4	nie	nie	PART	qub	Polarity=Neg	5	advmod	5:advmod	_
 5	zdarzyło	zdarzyć	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	się	się	PRON	qub	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
-7	nic	nic	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	5	nsubj	5:nsubj	SpaceAfter=No
+7	nic	nic	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	5	nsubj	5:nsubj|10:nsubj|13:nsubj	SpaceAfter=No
 8	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
-9	co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	10	nsubj	10:nsubj|13:nsubj	_
+9	co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	10	nsubj	7:ref	_
 10	mogło	móc	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	SpaceAfter=No
 11	by	by	AUX	qub	Mood=Cnd	10	aux:mood	10:aux:mood	_
 12	mnie	ja	PRON	ppron12:sg:acc:f:pri:akc	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs|Variant=Long	13	obj	13:obj	_
@@ -19394,10 +19394,10 @@
 # genre = fiction
 1	Wreszcie	wreszcie	ADV	adv:pos	Degree=Pos	2	advmod	2:advmod	_
 2	nadszedł	nadejść	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	lekarz	lekarz	NOUN	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc1	2	nsubj	2:nsubj	SpaceAfter=No
+3	lekarz	lekarz	NOUN	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc1	2	nsubj	2:nsubj|8:obl:o	SpaceAfter=No
 4	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
 5	o	o	ADP	prep:acc	AdpType=Prep	6	case	6:case	Case=Acc
-6	którego	który	DET	adj:sg:acc:m1:pos	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc1	8	obl	8:obl:o	_
+6	którego	który	DET	adj:sg:acc:m1:pos	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel|SubGender=Masc1	8	obl	3:ref	_
 7	nam	my	PRON	ppron12:pl:dat:m1:pri	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs|SubGender=Masc1	8	iobj	8:iobj	_
 8	chodziło	chodzić	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	SpaceAfter=No
 9	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
@@ -20450,7 +20450,7 @@
 # converted_from_file = NKJP1M_3102000008_morph_26-p_morph_26.39-s-dis@1.xml
 # genre = nonfiction
 1	Za	za	ADP	prep:acc	AdpType=Prep	5	case	5:case	Case=Acc
-2	trzydzieści	trzydzieści	NUM	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	5	nummod	5:nummod	DepType=Rec|SpaceAfter=No
+2	trzydzieści	trzydzieści	NUM	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	5	nummod	5:nummod	SpaceAfter=No|DepType=Rec
 3	,	,	PUNCT	interp	PunctType=Comm	4	punct	4:punct	_
 4	czterdzieści	czterdzieści	NUM	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	2	conj	2:conj|5:nummod	DepType=Rec
 5	lat	rok	NOUN	subst:pl:gen:m3	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc3	6	obl	6:obl:za	_
@@ -20810,10 +20810,10 @@
 # genre = news
 1	Zatrzymano	zatrzymać	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	dwóch	dwa	NUM	num:pl:acc:m1:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc1	3	nummod	3:nummod	DepType=Rec
-3	mężczyzn	mężczyzna	NOUN	subst:pl:gen:m1	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc1	1	obj	1:obj	SpaceAfter=No
+3	mężczyzn	mężczyzna	NOUN	subst:pl:gen:m1	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc1	1	obj	1:obj|7:obl:u	SpaceAfter=No
 4	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
 5	u	u	ADP	prep:gen	AdpType=Prep	6	case	6:case	Case=Gen
-6	których	który	DET	adj:pl:gen:m1:pos	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel|SubGender=Masc1	7	obl	7:obl:u	_
+6	których	który	DET	adj:pl:gen:m1:pos	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel|SubGender=Masc1	7	obl	3:ref	_
 7	znaleziono	znaleźć	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	_
 8	starodruki	starodruk	NOUN	subst:pl:acc:m3	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc3	7	obj	7:obj	SpaceAfter=No
 9	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
@@ -21324,7 +21324,7 @@
 1	zresztą	zresztą	PART	qub	_	2	advmod	2:advmod	_
 2	widać	widać	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
 3	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	obl	2:obl	_
-4	dużo	dużo	DET	num:pl:acc:n:rec	Case=Acc|Gender=Neut|Number=Plur|NumType=Card|PronType=Ind	3	det	3:det	DepType=Rec|SpaceAfter=No
+4	dużo	dużo	DET	num:pl:acc:n:rec	Case=Acc|Gender=Neut|Number=Plur|NumType=Card|PronType=Ind	3	det	3:det	SpaceAfter=No|DepType=Rec
 5	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	SpaceAfter=No
 6	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
 
