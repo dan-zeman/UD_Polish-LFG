@@ -110,16 +110,14 @@
     <feat name="Voice" value="Pass" upos="ADJ">929</feat><!-- przygotowane, przyjęta, wykonane, opanowana, przekazane, oszołomiony, pozamykane, ukryte, wyposażone, wyznaczone -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="40">
+  <deps unique="36">
     <dep name="acl">870</dep>
     <dep name="acl:relcl">130</dep>
     <dep name="advcl">919</dep>
     <dep name="advmod">10958</dep>
     <dep name="amod">5909</dep>
     <dep name="appos">170</dep>
-    <dep name="aux">547</dep>
-    <dep name="aux:aglt">1697</dep>
-    <dep name="aux:mood">424</dep>
+    <dep name="aux">2668</dep>
     <dep name="aux:pass">355</dep>
     <dep name="case">11106</dep>
     <dep name="cc">3187</dep>
@@ -127,8 +125,7 @@
     <dep name="ccomp">789</dep>
     <dep name="ccomp:obj">175</dep>
     <dep name="conj">3358</dep>
-    <dep name="cop">1016</dep>
-    <dep name="cop:locat">208</dep>
+    <dep name="cop">1224</dep>
     <dep name="csubj">127</dep>
     <dep name="det">2732</dep>
     <dep name="discourse">42</dep>
@@ -149,7 +146,6 @@
     <dep name="punct">25820</dep>
     <dep name="root">17246</dep>
     <dep name="vocative">194</dep>
-    <dep name="xcomp">2223</dep>
-    <dep name="xcomp:obj">7</dep>
+    <dep name="xcomp">2230</dep>
   </deps>
 </treebank>

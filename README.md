@@ -52,6 +52,8 @@ Agnieszka Patejuk and Adam Przepiórkowski. “From Lexical Functional Grammar t
 
 # Changelog
 
+* IWPT 2021 shared task data
+  * Reduced variability of deprel subtypes to increase intra-language consistency.
 * 2019-04-26 v2.4
   * When UPOS=INTJ (XPOS=interj), DEPREL/DEPS=discourse (instead of advmod)
   * Fixed non-projective punctuation 
